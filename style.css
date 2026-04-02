@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .card img {
     width: 300px;
     height: auto;
@@ -6,10 +11,28 @@
   font-family: "Oi", serif;
   font-weight: 400;
   font-style: normal;
+
 }
 h1 {
     font-family: "Oi", serif;
     font-weight: 400;
     font-size: 60px;
     width: 450px;
+}
+.card {
+    background-color: gray;
+    max-width: 800px;
+    max-height: fit-content;
+    padding: 30px;
+    gap: 20px;
+    margin-top: 150px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.descricao {
+    font-family:    "Oi", serif;
+    font-size: 30px;
+    font-weight: 50;
 }
