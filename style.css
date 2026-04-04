@@ -38,10 +38,10 @@ h1 {
 .descricao {
     background-color: rgb(238, 216, 169);
     width: 400px;
-    border-radius: 0%;
-    margin-top: -40px;
+    border-radius: 25%;
+    margin-top: -70px;
     margin-left: 15px;
-    padding-top: 45px;
+    padding-top: 75px;
     padding-bottom: 10px;
 }
 
