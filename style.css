@@ -2,11 +2,13 @@ html {
     background-image: url(assets/background.png);
     background-size: cover;
 }
+
 .container {
     display: grid;
     place-items: center;
 }
-.card{
+
+.card {
     width: 430px;
     background-color: #4b2409;
     display: flex;
@@ -14,6 +16,7 @@ html {
     text-align: center;
     margin-top: 100px;
 }
+
 .card img {
     padding-top: 15px;
     width: 400px;
@@ -21,6 +24,7 @@ html {
     border-radius: 20%;
     position: relative;
 }
+
 h1 {
     background-color: #bd7a22;
     width: 390px;
@@ -30,16 +34,19 @@ h1 {
     text-align: left;
     position: absolute;
 }
+
 .descricao {
-    background-color: rgb(238, 216, 169);;
-    width: 400px;   
+    background-color: rgb(238, 216, 169);
+    ;
+    width: 400px;
     border-radius: 0%;
     margin-top: -40px;
     margin-left: 15px;
     padding-top: 45px;
     padding-bottom: 10px;
 }
-.habilidades{
+
+.habilidades {
     width: 200px;
     color: white;
     margin-left: 20px;
@@ -47,17 +54,21 @@ h1 {
     margin-top: -20px;
     margin-right: 5px;
 }
-.habilidades > ul {
+
+.habilidades>ul {
     margin-top: -15px;
 }
-.habilidades > h2 {
+
+.habilidades>h2 {
     padding-left: 25px;
 }
+
 .caracteristicas {
     color: white;
     margin-top: -20px;
 }
-.caracteristicas > p {
+
+.caracteristicas>p {
     margin-top: -15px;
     margin-bottom: 15px;
 }
