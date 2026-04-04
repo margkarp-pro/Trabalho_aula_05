@@ -1,11 +1,18 @@
+html {
+    background-image: url(assets/background.png);
+    background-size: cover;
+}
 .container {
-    text-align: center;
+    display: grid;
+    place-items: center;
 }
 .card{
     width: 430px;
     background-color: #4b2409;
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
+    margin-top: 100px;
 }
 .card img {
     padding-top: 15px;
@@ -37,11 +44,20 @@ h1 {
     color: white;
     margin-left: 20px;
     text-align: left;
-    
+    margin-top: -20px;
+    margin-right: 5px;
 }
 .habilidades > ul {
     margin-top: -15px;
 }
 .habilidades > h2 {
     padding-left: 25px;
+}
+.caracteristicas {
+    color: white;
+    margin-top: -20px;
+}
+.caracteristicas > p {
+    margin-top: -15px;
+    margin-bottom: 15px;
 }
