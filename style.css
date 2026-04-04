@@ -6,6 +6,16 @@ html {
 .container {
     display: grid;
     place-items: center;
+    animation: subir 1s forwards;    
+}
+
+@keyframes subir  {
+    0%{
+        transform: translate(y);
+    }
+    100%{
+        transform: translateY(500px);
+    }
 }
 
 .card {
@@ -14,7 +24,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    margin-top: 100px;
+    margin-top: -400px;
     border-radius: 5%;
     border: solid;
     border-width: 5px;
